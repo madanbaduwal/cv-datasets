@@ -9,11 +9,11 @@ show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Computer Vision Datasets.
+description: Vision Datasets.
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Madan Baduwal
+  email: madanbaduwal100@gmail.com
+  twitter: MadanBaduwal1 # twitter username without the @ symbol
 social:
   name: Edition Template
   links:
