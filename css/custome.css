@@ -3,9 +3,9 @@ body {
     font-family: 'Libre Franklin', sans-serif;
   }
   .Grid {
-    /* width: 50rem ; */
+    width: 100%;
     padding: 0;
-    margin: 200px;
+    /* margin: 200px; */
   }
   .Grid-row {
     display: flex;
