@@ -1,6 +1,8 @@
 ---
-title: Vision
+title: Vision 👀
 ---
+
+<script src="https://gist.github.com/AliRezaAzimi/9297668.js"></script>
 
 This is the **Edition** template from [CloudCannon](http://cloudcannon.com/).
 **Edition** is perfect for documenting your product, application or service.
