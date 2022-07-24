@@ -3,8 +3,8 @@ body {
     font-family: 'Libre Franklin', sans-serif;
   }
   .Grid {
-    width: 50rem;
-    margin: 5rem auto;
+    width: 50rem ;
+    /* margin: 5rem auto; */
   }
   .Grid-row {
     display: flex;
