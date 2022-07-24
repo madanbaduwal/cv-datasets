@@ -1,288 +1,421 @@
-color-grey-1 = #F5F5F5
-color-grey-9 = #212121
-
-color-purple-1 = #673AB7
-color-purple-2 = #3F51B5
-color-purple-3 = #2196F3
-
-color-card-bg = #607D8B
-color-bg = #FFF
-color-header = #eee
-
-body
-  background: color-grey-1
-  font-family: 'Libre Franklin', sans-serif
-  
-.Grid
-  width: 50rem
-  margin: 5rem auto
-  
-  &-row
-    display: flex
-    justify-content: space-between
-    margin-bottom: 2.5rem
-  
-.Card
-  position: relative
-  flex: 0 1 15rem
-  background-color: white
-  padding-bottom: 5rem
-  transition: background-color .2s cubic-bezier(0.5, 0.3, 0.8, 0.06)
-  color: #000
-  
-  &-thumb
-    position: relative
-    width: 15rem
-    height: 10rem
+body {
+    background: #f5f5f5;
+    font-family: 'Libre Franklin', sans-serif;
+  }
+  .Grid {
+    width: 50rem;
+    margin: 5rem auto;
+  }
+  .Grid-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+  }
+  .Card {
+    position: relative;
+    flex: 0 1 15rem;
+    background-color: #fff;
+    padding-bottom: 5rem;
+    transition: background-color 0.2s cubic-bezier(0.5, 0.3, 0.8, 0.06);
+    color: #000;
+  }
+  .Card-thumb {
+    position: relative;
+    width: 15rem;
+    height: 10rem;
     perspective-origin: 50% 0%;
-    perspective: 600px
-    z-index: 1
-  
-  &-image,
-  &-shadow
-    position: absolute
-    display: block
-    width: 15rem
-    height: 10rem
-    transition: all .2s cubic-bezier(0.42, 0.0, 0.58, 1.0)
-    
-  &-shadow
-    opacity: .8
-    
-    &:nth-child(1)
-      opacity: .6
-      background-color: color-purple-1
-      transition: all .2s cubic-bezier(0.42, 0.0, 0.58, 1.0) .07s
-    &:nth-child(2)
-      opacity: .7
-      background-color: color-purple-2
-      transition: all .2s cubic-bezier(0.42, 0.0, 0.58, 1.0) .05s
-    &:nth-child(3)
-      background-color: color-purple-3
-      transition: all .2s cubic-bezier(0.42, 0.0, 0.58, 1.0) .03s
-    
-  &-image
-    position: relative
-    background-size: auto 100%
-    background-position: center
-    background-repeat: no-repeat
-    background-color: color-card-bg
-    
-    &::before
-      position: absolute
-      top: 0
-      right: 0
-      bottom: 0
-      left: 0
-      background-color: color-purple-2
-      content: ''
-      opacity: 0
-      transition: opacity .1s
-  
-  &-title,
-  &-explore
-    position: absolute
-    bottom: 0
-    display: flex
-    align-items: center
-    width: 100%
-    height: 5rem
-    text-align: center
-    transition: all .2s cubic-bezier(0.5, 0.3, 0.8, 0.06)
-    
-    span
-      padding: .5rem
-      flex: 1 1 auto
-      text-align: center
-      
-  &-explore
-    opacity: 0
-    transform: translate(0, -1rem)
-    font-size: 0.75rem
-    text-transform: uppercase
-    letter-spacing: 1px
-    color: color-purple-1
-    
-  &-button
-    position: absolute
-    left: 50%
-    top: 5rem
-    padding: .5rem 1rem
-    background-color: #fff
-    border-radius: 2rem
-    border: 2px solid color-purple-2
-    color: #fff
-    font-size: .75rem
-    font-weight: 600
-    transform: translate(-50%, 2rem)
-    cursor: pointer
-    transition: all .2s
-    opacity: 0
-    outline: none
-    z-index: 4
-    
-.Card:hover,
-.Card--active
-  background-color: color-grey-1
-  cursor: pointer
-  
-  .Card
-    &-thumb
-      z-index: 3
-    
-    &-title
-      opacity: 0
-      
-    &-explore
-      opacity: 1
-      transform: translate(0, 1rem)
-      transition: all .2s cubic-bezier(0.42, 0.0, 0.58, 1.0) .1s
-      
-    &-image
-      transform: scale(1.05) translate(0, -1rem) rotateX(25deg)
-      
-      &::before
-        opacity: .4
-      
-    &-shadow:nth-child(3)
-      transform: scale(1.02) translate(0, -.3rem) rotateX(15deg)
-      
-    &-shadow:nth-child(2)
-      transform: scale(.9) translate(0, 1rem) rotateX(15deg)
-    
-    &-shadow:nth-child(1)
-      transform: scale(.82) translate(0, 2.4rem) rotateX(5deg)
-      
-    &-button
-      opacity: 1
-      color: color-purple-2
-      transform: translate(-50%, 0)
-      
-      &:hover
-        color: #fff
-        background-color: color-purple-2
-        
-.Card--active, .Card--active:hover
-  background: none
-  
-  .Card
-    &-explore
-      opacity: 0
-      transform: translate(0, 3rem)
-      transition: all .5s cubic-bezier(0.42, 0.0, 0.58, 1.0)
-      
-    &-image
-      opacity: 0
-      transition: all .4s cubic-bezier(0.42, 0.0, 0.58, 1.0)
-      transform: scale(1.05) translate(0, -2.5rem) rotateX(50deg)
-      
-      &::before
-        opacity: .4
-      
-    &-button
-      opacity: 0
-      transition: all .35s cubic-bezier(0.42, 0.0, 0.58, 1.0)
-      transform: translate(-50%, -2rem) scale(1, 0.4)
-
-for r in (1..3)  
-  .Grid-row:nth-child({r})
-    dRow = r - 2
-    for num in (1..3)
-      .Card:nth-child({num})
-        dCol = num - 2
-        &.Card--active, .Card--active:hover
-          .Card
-            &-shadow:nth-child(3)
-              transition: all .2s cubic-bezier(0.7, 0.0, 0.78, 1.0)
-              transform: scale(1) translate(-108% + (dCol * -114%), -55% + (dRow * -168%))
-
-            &-shadow:nth-child(2)
-              transition: all .2s cubic-bezier(0.7, 0.0, 0.78, 1.0) .1s
-              transform: scale(1) translate(-108% + (dCol * -114%), 55% + (dRow * -168%))
-
-            &-shadow:nth-child(1)
-              transition: all .2s cubic-bezier(0.7, 0.0, 0.78, 1.0) .2s
-              transform: scale(2.1) translate(26%  + (dCol * -55%), (dRow * -80%))
-
-.Gallery
-  display: block
-  position: fixed
-  top: 0
-  right: 0
-  bottom: 0
-  left: 0
-  background: color-grey-1
-  opacity: 0
-  transform: scale(1.2)
-  transition: none
-  padding: 18rem 0
-  overflow-y: scroll
-  
-  &-header
-    position: absolute
-    left: 0
-    right: 0
-    top: 0
-    background-color: color-header
-    padding-bottom: 5rem
-    
-  
-  &-close
-    position: absolute
-    right: 1rem
-    top: 1rem
-    font-size: 3rem
-    opacity: .5
-    cursor: pointer
-    
-    &:hover
-      opacity: .8
-      
-  &-images
-    display: flex
-    width: 47rem
-    margin: 0 auto
-    justify-content: space-between
-    margin-bottom: 1rem
-    
-    for r in (3..6)  
-      &:nth-child({r})
-        transition: all 0.2s cubic-bezier(0.7, 0.0, 0.78, 1.0) (.11s * r)
-        opacity: 0
-        transform: translate(0, 3rem) scale(1.1)
-    
-  &-left
-    flex: 1 auto
-    display: flex
-    justify-content: space-between
-    flex-direction: column
-      
-  &-image
-    display: block
-    width: 15rem
-    height: 9.5rem
-    transition: all .2s cubic-bezier(0.42, 0.0, 0.58, 1.0)
-    background: lighten(color-card-bg, 50%)
-    background-size: auto 100%
-    background-position: center
-    background-repeat: no-repeat
-    
-    &--primary
-      width: 31rem
-      height: 20rem
-      background-color: color-purple-1
-  
-.Gallery--active
-  z-index: 100
-  background: color-bg
-  transform: scale(1)
-  opacity: 1
-  transition: all 0.5s cubic-bezier(0.7, 0.0, 0.78, 1.0) .1s
-  
-  .Gallery
-    &-close
-      display: block
-      
-    &-images
-      opacity: 1
-      transform: none
+    perspective: 600px;
+    z-index: 1;
+  }
+  .Card-image,
+  .Card-shadow {
+    position: absolute;
+    display: block;
+    width: 15rem;
+    height: 10rem;
+    transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1);
+  }
+  .Card-shadow {
+    opacity: 0.8;
+  }
+  .Card-shadow:nth-child(1) {
+    opacity: 0.6;
+    background-color: #673ab7;
+    transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1) 0.07s;
+  }
+  .Card-shadow:nth-child(2) {
+    opacity: 0.7;
+    background-color: #3f51b5;
+    transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1) 0.05s;
+  }
+  .Card-shadow:nth-child(3) {
+    background-color: #2196f3;
+    transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1) 0.03s;
+  }
+  .Card-image {
+    position: relative;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #607d8b;
+  }
+  .Card-image::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #3f51b5;
+    content: '';
+    opacity: 0;
+    transition: opacity 0.1s;
+  }
+  .Card-title,
+  .Card-explore {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    transition: all 0.2s cubic-bezier(0.5, 0.3, 0.8, 0.06);
+  }
+  .Card-title span,
+  .Card-explore span {
+    padding: 0.5rem;
+    flex: 1 1 auto;
+    text-align: center;
+  }
+  .Card-explore {
+    opacity: 0;
+    transform: translate(0, -1rem);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #673ab7;
+  }
+  .Card-button {
+    position: absolute;
+    left: 50%;
+    top: 5rem;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    border: 2px solid #3f51b5;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    transform: translate(-50%, 2rem);
+    cursor: pointer;
+    transition: all 0.2s;
+    opacity: 0;
+    outline: none;
+    z-index: 4;
+  }
+  .Card:hover,
+  .Card--active {
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  .Card:hover .Card-thumb,
+  .Card--active .Card-thumb {
+    z-index: 3;
+  }
+  .Card:hover .Card-title,
+  .Card--active .Card-title {
+    opacity: 0;
+  }
+  .Card:hover .Card-explore,
+  .Card--active .Card-explore {
+    opacity: 1;
+    transform: translate(0, 1rem);
+    transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1) 0.1s;
+  }
+  .Card:hover .Card-image,
+  .Card--active .Card-image {
+    transform: scale(1.05) translate(0, -1rem) rotateX(25deg);
+  }
+  .Card:hover .Card-image::before,
+  .Card--active .Card-image::before {
+    opacity: 0.4;
+  }
+  .Card:hover .Card-shadow:nth-child(3),
+  .Card--active .Card-shadow:nth-child(3) {
+    transform: scale(1.02) translate(0, -0.3rem) rotateX(15deg);
+  }
+  .Card:hover .Card-shadow:nth-child(2),
+  .Card--active .Card-shadow:nth-child(2) {
+    transform: scale(0.9) translate(0, 1rem) rotateX(15deg);
+  }
+  .Card:hover .Card-shadow:nth-child(1),
+  .Card--active .Card-shadow:nth-child(1) {
+    transform: scale(0.82) translate(0, 2.4rem) rotateX(5deg);
+  }
+  .Card:hover .Card-button,
+  .Card--active .Card-button {
+    opacity: 1;
+    color: #3f51b5;
+    transform: translate(-50%, 0);
+  }
+  .Card:hover .Card-button:hover,
+  .Card--active .Card-button:hover {
+    color: #fff;
+    background-color: #3f51b5;
+  }
+  .Card--active,
+  .Card--active:hover {
+    background: none;
+  }
+  .Card--active .Card-explore,
+  .Card--active:hover .Card-explore {
+    opacity: 0;
+    transform: translate(0, 3rem);
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+  }
+  .Card--active .Card-image,
+  .Card--active:hover .Card-image {
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    transform: scale(1.05) translate(0, -2.5rem) rotateX(50deg);
+  }
+  .Card--active .Card-image::before,
+  .Card--active:hover .Card-image::before {
+    opacity: 0.4;
+  }
+  .Card--active .Card-button,
+  .Card--active:hover .Card-button {
+    opacity: 0;
+    transition: all 0.35s cubic-bezier(0.42, 0, 0.58, 1);
+    transform: translate(-50%, -2rem) scale(1, 0.4);
+  }
+  .Grid-row:nth-child(1) .Card:nth-child(1).Card--active .Card-shadow:nth-child(3),
+  .Grid-row:nth-child(1) .Card:nth-child(1) .Card--active:hover .Card-shadow:nth-child(3) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1);
+    transform: scale(1) translate(6%, 113%);
+  }
+  .Grid-row:nth-child(1) .Card:nth-child(1).Card--active .Card-shadow:nth-child(2),
+  .Grid-row:nth-child(1) .Card:nth-child(1) .Card--active:hover .Card-shadow:nth-child(2) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.1s;
+    transform: scale(1) translate(6%, 223%);
+  }
+  .Grid-row:nth-child(1) .Card:nth-child(1).Card--active .Card-shadow:nth-child(1),
+  .Grid-row:nth-child(1) .Card:nth-child(1) .Card--active:hover .Card-shadow:nth-child(1) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.2s;
+    transform: scale(2.1) translate(81%, 80%);
+  }
+  .Grid-row:nth-child(1) .Card:nth-child(2).Card--active .Card-shadow:nth-child(3),
+  .Grid-row:nth-child(1) .Card:nth-child(2) .Card--active:hover .Card-shadow:nth-child(3) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1);
+    transform: scale(1) translate(-108%, 113%);
+  }
+  .Grid-row:nth-child(1) .Card:nth-child(2).Card--active .Card-shadow:nth-child(2),
+  .Grid-row:nth-child(1) .Card:nth-child(2) .Card--active:hover .Card-shadow:nth-child(2) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.1s;
+    transform: scale(1) translate(-108%, 223%);
+  }
+  .Grid-row:nth-child(1) .Card:nth-child(2).Card--active .Card-shadow:nth-child(1),
+  .Grid-row:nth-child(1) .Card:nth-child(2) .Card--active:hover .Card-shadow:nth-child(1) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.2s;
+    transform: scale(2.1) translate(26%, 80%);
+  }
+  .Grid-row:nth-child(1) .Card:nth-child(3).Card--active .Card-shadow:nth-child(3),
+  .Grid-row:nth-child(1) .Card:nth-child(3) .Card--active:hover .Card-shadow:nth-child(3) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1);
+    transform: scale(1) translate(-222%, 113%);
+  }
+  .Grid-row:nth-child(1) .Card:nth-child(3).Card--active .Card-shadow:nth-child(2),
+  .Grid-row:nth-child(1) .Card:nth-child(3) .Card--active:hover .Card-shadow:nth-child(2) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.1s;
+    transform: scale(1) translate(-222%, 223%);
+  }
+  .Grid-row:nth-child(1) .Card:nth-child(3).Card--active .Card-shadow:nth-child(1),
+  .Grid-row:nth-child(1) .Card:nth-child(3) .Card--active:hover .Card-shadow:nth-child(1) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.2s;
+    transform: scale(2.1) translate(-29%, 80%);
+  }
+  .Grid-row:nth-child(2) .Card:nth-child(1).Card--active .Card-shadow:nth-child(3),
+  .Grid-row:nth-child(2) .Card:nth-child(1) .Card--active:hover .Card-shadow:nth-child(3) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1);
+    transform: scale(1) translate(6%, -55%);
+  }
+  .Grid-row:nth-child(2) .Card:nth-child(1).Card--active .Card-shadow:nth-child(2),
+  .Grid-row:nth-child(2) .Card:nth-child(1) .Card--active:hover .Card-shadow:nth-child(2) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.1s;
+    transform: scale(1) translate(6%, 55%);
+  }
+  .Grid-row:nth-child(2) .Card:nth-child(1).Card--active .Card-shadow:nth-child(1),
+  .Grid-row:nth-child(2) .Card:nth-child(1) .Card--active:hover .Card-shadow:nth-child(1) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.2s;
+    transform: scale(2.1) translate(81%, 0%);
+  }
+  .Grid-row:nth-child(2) .Card:nth-child(2).Card--active .Card-shadow:nth-child(3),
+  .Grid-row:nth-child(2) .Card:nth-child(2) .Card--active:hover .Card-shadow:nth-child(3) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1);
+    transform: scale(1) translate(-108%, -55%);
+  }
+  .Grid-row:nth-child(2) .Card:nth-child(2).Card--active .Card-shadow:nth-child(2),
+  .Grid-row:nth-child(2) .Card:nth-child(2) .Card--active:hover .Card-shadow:nth-child(2) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.1s;
+    transform: scale(1) translate(-108%, 55%);
+  }
+  .Grid-row:nth-child(2) .Card:nth-child(2).Card--active .Card-shadow:nth-child(1),
+  .Grid-row:nth-child(2) .Card:nth-child(2) .Card--active:hover .Card-shadow:nth-child(1) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.2s;
+    transform: scale(2.1) translate(26%, 0%);
+  }
+  .Grid-row:nth-child(2) .Card:nth-child(3).Card--active .Card-shadow:nth-child(3),
+  .Grid-row:nth-child(2) .Card:nth-child(3) .Card--active:hover .Card-shadow:nth-child(3) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1);
+    transform: scale(1) translate(-222%, -55%);
+  }
+  .Grid-row:nth-child(2) .Card:nth-child(3).Card--active .Card-shadow:nth-child(2),
+  .Grid-row:nth-child(2) .Card:nth-child(3) .Card--active:hover .Card-shadow:nth-child(2) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.1s;
+    transform: scale(1) translate(-222%, 55%);
+  }
+  .Grid-row:nth-child(2) .Card:nth-child(3).Card--active .Card-shadow:nth-child(1),
+  .Grid-row:nth-child(2) .Card:nth-child(3) .Card--active:hover .Card-shadow:nth-child(1) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.2s;
+    transform: scale(2.1) translate(-29%, 0%);
+  }
+  .Grid-row:nth-child(3) .Card:nth-child(1).Card--active .Card-shadow:nth-child(3),
+  .Grid-row:nth-child(3) .Card:nth-child(1) .Card--active:hover .Card-shadow:nth-child(3) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1);
+    transform: scale(1) translate(6%, -223%);
+  }
+  .Grid-row:nth-child(3) .Card:nth-child(1).Card--active .Card-shadow:nth-child(2),
+  .Grid-row:nth-child(3) .Card:nth-child(1) .Card--active:hover .Card-shadow:nth-child(2) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.1s;
+    transform: scale(1) translate(6%, -113%);
+  }
+  .Grid-row:nth-child(3) .Card:nth-child(1).Card--active .Card-shadow:nth-child(1),
+  .Grid-row:nth-child(3) .Card:nth-child(1) .Card--active:hover .Card-shadow:nth-child(1) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.2s;
+    transform: scale(2.1) translate(81%, -80%);
+  }
+  .Grid-row:nth-child(3) .Card:nth-child(2).Card--active .Card-shadow:nth-child(3),
+  .Grid-row:nth-child(3) .Card:nth-child(2) .Card--active:hover .Card-shadow:nth-child(3) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1);
+    transform: scale(1) translate(-108%, -223%);
+  }
+  .Grid-row:nth-child(3) .Card:nth-child(2).Card--active .Card-shadow:nth-child(2),
+  .Grid-row:nth-child(3) .Card:nth-child(2) .Card--active:hover .Card-shadow:nth-child(2) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.1s;
+    transform: scale(1) translate(-108%, -113%);
+  }
+  .Grid-row:nth-child(3) .Card:nth-child(2).Card--active .Card-shadow:nth-child(1),
+  .Grid-row:nth-child(3) .Card:nth-child(2) .Card--active:hover .Card-shadow:nth-child(1) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.2s;
+    transform: scale(2.1) translate(26%, -80%);
+  }
+  .Grid-row:nth-child(3) .Card:nth-child(3).Card--active .Card-shadow:nth-child(3),
+  .Grid-row:nth-child(3) .Card:nth-child(3) .Card--active:hover .Card-shadow:nth-child(3) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1);
+    transform: scale(1) translate(-222%, -223%);
+  }
+  .Grid-row:nth-child(3) .Card:nth-child(3).Card--active .Card-shadow:nth-child(2),
+  .Grid-row:nth-child(3) .Card:nth-child(3) .Card--active:hover .Card-shadow:nth-child(2) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.1s;
+    transform: scale(1) translate(-222%, -113%);
+  }
+  .Grid-row:nth-child(3) .Card:nth-child(3).Card--active .Card-shadow:nth-child(1),
+  .Grid-row:nth-child(3) .Card:nth-child(3) .Card--active:hover .Card-shadow:nth-child(1) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.2s;
+    transform: scale(2.1) translate(-29%, -80%);
+  }
+  .Gallery {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #f5f5f5;
+    opacity: 0;
+    transform: scale(1.2);
+    transition: none;
+    padding: 18rem 0;
+    overflow-y: scroll;
+  }
+  .Gallery-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #eee;
+    padding-bottom: 5rem;
+  }
+  .Gallery-close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 3rem;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .Gallery-close:hover {
+    opacity: 0.8;
+  }
+  .Gallery-images {
+    display: flex;
+    width: 47rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  .Gallery-images:nth-child(3) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.33s;
+    opacity: 0;
+    transform: translate(0, 3rem) scale(1.1);
+  }
+  .Gallery-images:nth-child(4) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.44s;
+    opacity: 0;
+    transform: translate(0, 3rem) scale(1.1);
+  }
+  .Gallery-images:nth-child(5) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.55s;
+    opacity: 0;
+    transform: translate(0, 3rem) scale(1.1);
+  }
+  .Gallery-images:nth-child(6) {
+    transition: all 0.2s cubic-bezier(0.7, 0, 0.78, 1) 0.66s;
+    opacity: 0;
+    transform: translate(0, 3rem) scale(1.1);
+  }
+  .Gallery-left {
+    flex: 1 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .Gallery-image {
+    display: block;
+    width: 15rem;
+    height: 9.5rem;
+    transition: all 0.2s cubic-bezier(0.42, 0, 0.58, 1);
+    background: #aebfc7;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .Gallery-image--primary {
+    width: 31rem;
+    height: 20rem;
+    background-color: #673ab7;
+  }
+  .Gallery--active {
+    z-index: 100;
+    background: #fff;
+    transform: scale(1);
+    opacity: 1;
+    transition: all 0.5s cubic-bezier(0.7, 0, 0.78, 1) 0.1s;
+  }
+  .Gallery--active .Gallery-close {
+    display: block;
+  }
+  .Gallery--active .Gallery-images {
+    opacity: 1;
+    transform: none;
+  }

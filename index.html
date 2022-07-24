@@ -11,39 +11,362 @@ title: Vision 👀
 </form>
 
 
-section.Grid
-  - for (var i=0; i<3; i++)
-    .Grid-row
-      - for (var j=0; j<3; j++)
-        - var id = i * 3 + j + 1;
-        a.Card(onClick='openGallery(' + id + ')', id='card-' + id)
-          .Card-thumb
-            .Card-shadow
-            .Card-shadow
-            .Card-shadow
-            .Card-image(
-              style='background-image: url(https://robohash.org/' + id + ')'
-            )
-          .Card-title
-            span Super interesting card
-          .Card-explore
-            span Explore 50 more
-          button.Card-button view more
-
-- for (var i=1; i<=9; i++)
-  section.Gallery(id='gallery-' + i)
-    .Gallery-header
-      a.Gallery-close(onclick="closeAll()") ×
-    .Gallery-images
-      .Gallery-left
-        .Gallery-image
-        .Gallery-image
-      .Gallery-image.Gallery-image--primary(
-        style='background-image: url(https://robohash.org/' + i + ')'
-      )
-
-    - for (var j=1; j<=4; j++)
-      .Gallery-images
-        .Gallery-image
-        .Gallery-image
-        .Gallery-image
+<section class="Grid">
+    <div class="Grid-row"><a class="Card" onClick="openGallery(1)" id="card-1">
+        <div class="Card-thumb">
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-image" style="background-image: url(https://robohash.org/1)"></div>
+        </div>
+        <div class="Card-title"><span>Super interesting card</span></div>
+        <div class="Card-explore"><span>Explore 50 more</span></div>
+        <button class="Card-button">view more</button></a><a class="Card" onClick="openGallery(2)" id="card-2">
+        <div class="Card-thumb">
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-image" style="background-image: url(https://robohash.org/2)"></div>
+        </div>
+        <div class="Card-title"><span>Super interesting card</span></div>
+        <div class="Card-explore"><span>Explore 50 more</span></div>
+        <button class="Card-button">view more</button></a><a class="Card" onClick="openGallery(3)" id="card-3">
+        <div class="Card-thumb">
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-image" style="background-image: url(https://robohash.org/3)"></div>
+        </div>
+        <div class="Card-title"><span>Super interesting card</span></div>
+        <div class="Card-explore"><span>Explore 50 more</span></div>
+        <button class="Card-button">view more</button></a>
+    </div>
+    <div class="Grid-row"><a class="Card" onClick="openGallery(4)" id="card-4">
+        <div class="Card-thumb">
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-image" style="background-image: url(https://robohash.org/4)"></div>
+        </div>
+        <div class="Card-title"><span>Super interesting card</span></div>
+        <div class="Card-explore"><span>Explore 50 more</span></div>
+        <button class="Card-button">view more</button></a><a class="Card" onClick="openGallery(5)" id="card-5">
+        <div class="Card-thumb">
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-image" style="background-image: url(https://robohash.org/5)"></div>
+        </div>
+        <div class="Card-title"><span>Super interesting card</span></div>
+        <div class="Card-explore"><span>Explore 50 more</span></div>
+        <button class="Card-button">view more</button></a><a class="Card" onClick="openGallery(6)" id="card-6">
+        <div class="Card-thumb">
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-image" style="background-image: url(https://robohash.org/6)"></div>
+        </div>
+        <div class="Card-title"><span>Super interesting card</span></div>
+        <div class="Card-explore"><span>Explore 50 more</span></div>
+        <button class="Card-button">view more</button></a>
+    </div>
+    <div class="Grid-row"><a class="Card" onClick="openGallery(7)" id="card-7">
+        <div class="Card-thumb">
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-image" style="background-image: url(https://robohash.org/7)"></div>
+        </div>
+        <div class="Card-title"><span>Super interesting card</span></div>
+        <div class="Card-explore"><span>Explore 50 more</span></div>
+        <button class="Card-button">view more</button></a><a class="Card" onClick="openGallery(8)" id="card-8">
+        <div class="Card-thumb">
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-image" style="background-image: url(https://robohash.org/8)"></div>
+        </div>
+        <div class="Card-title"><span>Super interesting card</span></div>
+        <div class="Card-explore"><span>Explore 50 more</span></div>
+        <button class="Card-button">view more</button></a><a class="Card" onClick="openGallery(9)" id="card-9">
+        <div class="Card-thumb">
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-shadow"></div>
+          <div class="Card-image" style="background-image: url(https://robohash.org/9)"></div>
+        </div>
+        <div class="Card-title"><span>Super interesting card</span></div>
+        <div class="Card-explore"><span>Explore 50 more</span></div>
+        <button class="Card-button">view more</button></a>
+    </div>
+  </section>
+  <section class="Gallery" id="gallery-1">
+    <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
+    <div class="Gallery-images">
+      <div class="Gallery-left">
+        <div class="Gallery-image"></div>
+        <div class="Gallery-image"></div>
+      </div>
+      <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/1)"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+  </section>
+  <section class="Gallery" id="gallery-2">
+    <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
+    <div class="Gallery-images">
+      <div class="Gallery-left">
+        <div class="Gallery-image"></div>
+        <div class="Gallery-image"></div>
+      </div>
+      <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/2)"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+  </section>
+  <section class="Gallery" id="gallery-3">
+    <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
+    <div class="Gallery-images">
+      <div class="Gallery-left">
+        <div class="Gallery-image"></div>
+        <div class="Gallery-image"></div>
+      </div>
+      <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/3)"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+  </section>
+  <section class="Gallery" id="gallery-4">
+    <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
+    <div class="Gallery-images">
+      <div class="Gallery-left">
+        <div class="Gallery-image"></div>
+        <div class="Gallery-image"></div>
+      </div>
+      <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/4)"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+  </section>
+  <section class="Gallery" id="gallery-5">
+    <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
+    <div class="Gallery-images">
+      <div class="Gallery-left">
+        <div class="Gallery-image"></div>
+        <div class="Gallery-image"></div>
+      </div>
+      <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/5)"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+  </section>
+  <section class="Gallery" id="gallery-6">
+    <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
+    <div class="Gallery-images">
+      <div class="Gallery-left">
+        <div class="Gallery-image"></div>
+        <div class="Gallery-image"></div>
+      </div>
+      <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/6)"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+  </section>
+  <section class="Gallery" id="gallery-7">
+    <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
+    <div class="Gallery-images">
+      <div class="Gallery-left">
+        <div class="Gallery-image"></div>
+        <div class="Gallery-image"></div>
+      </div>
+      <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/7)"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+  </section>
+  <section class="Gallery" id="gallery-8">
+    <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
+    <div class="Gallery-images">
+      <div class="Gallery-left">
+        <div class="Gallery-image"></div>
+        <div class="Gallery-image"></div>
+      </div>
+      <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/8)"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+  </section>
+  <section class="Gallery" id="gallery-9">
+    <div class="Gallery-header"><a class="Gallery-close" onclick="closeAll()">×</a></div>
+    <div class="Gallery-images">
+      <div class="Gallery-left">
+        <div class="Gallery-image"></div>
+        <div class="Gallery-image"></div>
+      </div>
+      <div class="Gallery-image Gallery-image--primary" style="background-image: url(https://robohash.org/9)"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+    <div class="Gallery-images">
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+      <div class="Gallery-image"></div>
+    </div>
+  </section>
