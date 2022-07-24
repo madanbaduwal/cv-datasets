@@ -31,13 +31,13 @@ $full-width-break: $nav-width + ($space * 4) + $content-max-width;
 @import "tables";
 @import "layout";
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: sans-serif;
-  }
+// body {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//     font-family: sans-serif;
+//   }
   h1 {
     color: coral;
   }
