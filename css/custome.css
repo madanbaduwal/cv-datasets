@@ -1,6 +1,7 @@
 body {
     background: #f5f5f5;
     font-family: 'Libre Franklin', sans-serif;
+    position: relative;
     
   }
   .Grid {
@@ -11,6 +12,7 @@ body {
   }
   .Grid-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 2.5rem;
   }
