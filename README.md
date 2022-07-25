@@ -4,7 +4,8 @@ Search Computer vision data
 
 For fast search follow this website [http://www.computervisiondatasets.ml/](http://www.computervisiondatasets.ml/)
 
-![Edition template screenshot](images/_screenshot.png)
+
+<img src="/images/demo.gif" alt="Demo gif" />
 
 
 A curated list of awesome computer vision datasets.
