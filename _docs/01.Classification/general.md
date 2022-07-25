@@ -135,6 +135,6 @@ Note : Pascal contain Classification/Detection Competitions, Segmentation Compet
 
 
 ### References 
-* https://www.kaggle.com/datasets?search=image&tags=13302-Classification
-* https://www.tensorflow.org/datasets/catalog/overview
-* https://paperswithcode.com/task/image-classification
+* [Kaggle Dataset](https://www.kaggle.com/datasets?search=image&tags=13302-Classification)
+* [Tensorflow Dataset](https://www.tensorflow.org/datasets/catalog/overview)
+* [PaperWithcode Dataset](https://paperswithcode.com/task/image-classification)
