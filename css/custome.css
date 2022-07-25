@@ -421,10 +421,18 @@ body {
     transform: none;
   }
 
+  .Search-dataset{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+  }
+
   .Data-group-name {
 
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     font-family: "Lucida Console", "Courier New", monospace;
 
