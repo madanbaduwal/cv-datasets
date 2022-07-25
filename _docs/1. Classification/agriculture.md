@@ -1,6 +1,6 @@
 ---
 title: Agriculture
-category: Image Classification
+category: 1. Classification
 order: 3
 ---
 

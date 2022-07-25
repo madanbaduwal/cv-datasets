@@ -1,6 +1,6 @@
 ---
 title: Medical 
-category: Image Classification
+category: 1. Classification
 order: 2
 ---
 
