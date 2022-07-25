@@ -441,10 +441,10 @@ body {
 
 
   ul.social-media-list img {
+    display: inline-block;
     padding: 5px;
     border-radius: 5px;
     background-color: lightblue;
     width: 36px;
     height: 36px;
-    display: inline-block;
 }
