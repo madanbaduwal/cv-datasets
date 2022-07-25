@@ -1,6 +1,6 @@
 ---
 title: Multi View Detection
-category: Detection and Segmentation
+category: 2. Detection and Segmentation
 order: 2
 ---
 

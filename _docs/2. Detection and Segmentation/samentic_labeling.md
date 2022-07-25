@@ -1,7 +1,7 @@
 ---
-title: Semantic Labeling
-category: Detection and Segmentation
-order: 7
+title: Samentic Labeling
+category: 2. Detection and Segmentation
+order: 6
 ---
 
 ### Semantic labeling
