@@ -445,12 +445,12 @@ body {
     background-color: lightblue;
     width: 36px;
     height: 36px;
-}
+  }
 
-ul.social-media-list li {
-  display: inline-block;
-}
+  ul.social-media-list li {
+    display: inline-block;
+  }
 
-ul.social-media-list img:hover {
-  background-color: #63D1F4;
-}
+  ul.social-media-list img:hover {
+    background-color: #63D1F4;
+  }
