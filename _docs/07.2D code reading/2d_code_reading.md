@@ -13,7 +13,8 @@ order: 1
 
 <table>
   <tr href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8627996/">
-    <td> - The QR-DN1.0 dataset includes 5 categories of QR codes that will cover low to high density levels. Each group has 15 QR codes: 5 images for testing and 10 images for training. </td>
+    <td> 
+    <li>The QR-DN1.0 dataset includes 5 categories of QR codes that will cover low to high density levels. Each group has 15 QR codes: 5 images for testing and 10 images for training. </td>
 
     <td><img src="https://www.dynamsoft.com/codepool/img/2021/datamatrix_benchmark/resist-deformation-sample2.png" alt="2" width = 360px height = 640px></td>
    </tr> 
