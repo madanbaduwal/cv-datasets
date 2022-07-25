@@ -420,3 +420,13 @@ body {
     opacity: 1;
     transform: none;
   }
+
+  .Text {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+
+  }
