@@ -439,13 +439,18 @@ body {
 
   }
 
-
   ul.social-media-list img {
-    display: flex;  
-    flex-wrap: wrap;
     padding: 5px;
     border-radius: 5px;
     background-color: lightblue;
     width: 36px;
     height: 36px;
+}
+
+ul.social-media-list li {
+  display: inline-block;
+}
+
+ul.social-media-list img:hover {
+  background-color: #63D1F4;
 }
