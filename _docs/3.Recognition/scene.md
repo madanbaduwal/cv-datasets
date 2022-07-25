@@ -1,6 +1,6 @@
 ---
 title: Scene
-category: 3. Recognition
+category: 3.Recognition
 order: 3
 ---
 

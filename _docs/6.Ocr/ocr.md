@@ -1,6 +1,6 @@
 ---
 title: Ocr 
-category: 6. Ocr
+category: 6.Ocr
 order: 1
 ---
 

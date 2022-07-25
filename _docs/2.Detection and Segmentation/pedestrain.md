@@ -1,6 +1,6 @@
 ---
 title: Pedestrain
-category: 2. Detection and Segmentation
+category: 2.Detection and Segmentation
 order: 4
 ---
 

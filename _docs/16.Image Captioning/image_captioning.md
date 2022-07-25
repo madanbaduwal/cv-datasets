@@ -1,6 +1,6 @@
 ---
 title: Image Captioning
-category: 16. Image Captioning
+category: 16.Image Captioning
 order: 1
 ---
 

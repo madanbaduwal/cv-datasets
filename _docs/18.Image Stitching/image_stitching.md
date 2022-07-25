@@ -1,6 +1,6 @@
 ---
 title: Image Stitching
-category: 18. Image Stitching
+category: 18.Image Stitching
 order: 1
 ---
 

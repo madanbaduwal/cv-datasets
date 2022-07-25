@@ -1,6 +1,6 @@
 ---
 title: Samentic Labeling
-category: 2. Detection and Segmentation
+category: 2.Detection and Segmentation
 order: 6
 ---
 

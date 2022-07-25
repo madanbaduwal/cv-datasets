@@ -1,6 +1,6 @@
 ---
 title: Segmentation(Image and Videos)
-category: 2. Detection and Segmentation
+category: 2.Detection and Segmentation
 order: 5
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Egomotion
-category: 8. Egomotion
+category: 8.Egomotion
 order: 1
 ---
 

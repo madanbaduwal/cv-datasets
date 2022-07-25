@@ -1,6 +1,6 @@
 ---
 title: Video classification 
-category: 1. Classification
+category: 1.Classification
 order: 5
 ---
 

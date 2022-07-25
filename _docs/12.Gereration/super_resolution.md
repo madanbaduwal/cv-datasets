@@ -1,6 +1,6 @@
 ---
 title: Super Resolution
-category: 12. Image Gereration
+category: 12.Image Gereration
 order: 1
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Intrinsic  
-category: 14. Intrinsic
+category: 14.Intrinsic
 order: 1
 ---
 

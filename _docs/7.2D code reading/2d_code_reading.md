@@ -1,6 +1,6 @@
 ---
 title: 2D Code Reading 
-category: 7. 2D code reading
+category: 7.2D code reading
 order: 1
 ---
 

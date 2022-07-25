@@ -1,6 +1,6 @@
 ---
 title: Material
-category: 3. Recognition
+category: 3.Recognition
 order: 2
 ---
 

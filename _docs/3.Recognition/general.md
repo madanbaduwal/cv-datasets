@@ -1,6 +1,6 @@
 ---
 title: General
-category: 3. Recognition
+category: 3.Recognition
 order: 1
 ---
 

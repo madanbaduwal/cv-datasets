@@ -1,6 +1,6 @@
 ---
 title: Fine Grained
-category: 3. Recognition
+category: 3.Recognition
 order: 4
 ---
 

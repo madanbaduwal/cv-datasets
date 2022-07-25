@@ -1,6 +1,6 @@
 ---
 title: Stereo Vision
-category: 13. Stereo Vision
+category: 13.Stereo Vision
 order: 1
 ---
 ## Stereo Vision

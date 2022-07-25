@@ -1,6 +1,6 @@
 ---
 title: 3D face animation
-category: 11. Reconstruction
+category: 11.Reconstruction
 order: 2
 ---
 

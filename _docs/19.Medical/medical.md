@@ -1,6 +1,6 @@
 ---
 title: Medical 
-category: 19. Medical
+category: 19.Medical
 order: 1
 ---
 

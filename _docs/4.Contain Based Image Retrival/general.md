@@ -1,6 +1,6 @@
 ---
 title: General
-category: 4. Contain Based Image Retrival
+category: 4.Contain Based Image Retrival
 order: 1
 ---
 

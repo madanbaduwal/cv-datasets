@@ -1,6 +1,6 @@
 ---
 title: Shape Recognition
-category: 3. Recognition
+category: 3.Recognition
 order: 5
 ---
 
