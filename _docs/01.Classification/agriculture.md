@@ -14,9 +14,7 @@ order: 3
 Sample 
 
 <!-- The grid: four columns -->
-<div class="zoom" >
-    <img src="https://www.researchgate.net/publication/324295920/figure/fig3/AS:960091868114955@1605915147482/Some-images-of-the-MIT-indoor-scene-dataset.jpg" onclick="myFunction(this);">
-</div>
+<img class="zoom" src="https://www.researchgate.net/publication/324295920/figure/fig3/AS:960091868114955@1605915147482/Some-images-of-the-MIT-indoor-scene-dataset.jpg" onclick="myFunction(this);">
 
 
 
