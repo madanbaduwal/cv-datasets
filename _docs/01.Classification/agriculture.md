@@ -4,57 +4,9 @@ category: 1.Classification
 order: 3
 ---
 
-#### Agriculture and Scene
-
-[Indoor Scenes Images](https://www.kaggle.com/datasets/itsahmad/indoor-scenes-cvpr-2019)
-- Classes : 67 separate categories(kitchen,operating_room,restaurant_kitchen...)
-- Total : 15,000+ images
-- Image type : kitchen,operating_room,restaurant_kitchen...
-
-Sample 
-
-<!-- The grid: four columns -->
-<img class="zoom" src="https://www.researchgate.net/publication/324295920/figure/fig3/AS:960091868114955@1605915147482/Some-images-of-the-MIT-indoor-scene-dataset.jpg">
+#### Agriculture
 
 
-
-[Images for Weather Recognition](https://data.mendeley.com/datasets/4drtyfjtfy/1)
-- Classes : 4 separate categories based on sunrise, cloudy, rainy, and sunshine.
-- Total images : 
-- Image types : sunrise, cloudy, rainy, and sunshine
-
-
-Sample 
-
-<!-- The grid: four columns -->
-
-<img class="zoom" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTnCU1j3pIHaU_19CJs2ruT91axZezlONlFjIHpvzQUsfjKKYP00AP-Gg2SYfbFg6rQxk&usqp=CAU">
-
-
-[Intel Image Classification](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
-- Classes :  6 categories(buildings,forest,glacier,mountain,sea,street)
-- Total datapoints : 25,000 
-- Type of image : buildings,forest,glacier,mountain,sea,street
-
-Sample
-
-
-<!-- The grid: four columns -->
-<img class="zoom" src="https://miro.medium.com/max/1400/1*GauhLqkNIW89cFEpDKlWqw.png">
-
-
-
-
-[TensorFlow Sun397 Image Classification Dataset](https://www.tensorflow.org/datasets/catalog/sun397)
-- Classes : 397 (house,outdore,station,playground...)
-- Total datapoints :  108,000 (The number of images varies across categories, but there are at least 100 images per category.)
-- Type of image : house,outdore,station,playground
-
-Sample
-
-<!-- The grid: four columns -->
-
-<img class="zoom" src="https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/61e9cdbe82f048674fa9a122_sun.png" >
   
 
 [Pistachio Image Dataset](https://www.muratkoklu.com/datasets/)
@@ -99,3 +51,17 @@ Sample
 - Type of image : Fruit 
 
 <img class="zoom" src="https://storage.googleapis.com/kaggle-datasets-images/2049845/3400552/7ea4cce54ee9f92170cf7e4dfcb72394/dataset-cover.jpg?t=2022-04-03-09-30-05" >
+
+
+
+
+
+
+
+
+
+
+
+# Reference
+
+* [muratkoklu](https://www.muratkoklu.com/datasets/)
