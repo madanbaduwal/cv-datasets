@@ -14,8 +14,8 @@ order: 3
 
 <!-- The grid: four columns -->
 <div class="row">
-  <div class="column">
-    <img src="https://web.mit.edu/torralba/www/allIndoors.jpg" alt="Nature" onclick="myFunction(this);">
+  <div class="column" >
+    <img src="https://www.researchgate.net/publication/324295920/figure/fig3/AS:960091868114955@1605915147482/Some-images-of-the-MIT-indoor-scene-dataset.jpg" onclick="myFunction(this);">
   </div>
 </div>
 
