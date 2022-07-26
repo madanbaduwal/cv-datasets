@@ -8,11 +8,21 @@ order: 1
 
 [COCO](https://cocodataset.org/#home)
 
-- 330K images (>200K labeled),1.5 million object instances,80 object categories,91 stuff categories,5 captions per image
+- Classes : 80 object categories,91 stuff categories,5 captions per image
+- Labeled datasets : >200K labeled
+- Total object instance : 1.5 million object instances 
+
+- Total images : 330K images
+
+- 250,000 people with keypoints
+
+<img class="zoom" src="https://cocodataset.org/images/coco-examples.jpg" >
+
 
 [KITTI](http://www.cvlibs.net/datasets/kitti/eval_object.php)
 
 - The object detection and object orientation estimation benchmark consists of 7481 training images and 7518 test images, comprising a total of 80.256 labeled objects. 
+
 
 
 [ImageNet](https://image-net.org/)
