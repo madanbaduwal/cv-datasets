@@ -468,8 +468,6 @@ body {
   
   .zoom {
     transition: transform .2s;
-    width: 200px;
-    height: 200px;
   }
   
   .zoom:hover {
