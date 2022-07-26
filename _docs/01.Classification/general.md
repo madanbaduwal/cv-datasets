@@ -21,7 +21,7 @@ order: 1
 - Type of image :  Pokemon
 
 
-<img class="zoom" src="https://storage.googleapis.com/kaggle-datasets-images/2048888/3398883/b1ba79b7a7a1c3c46edebb1a46104a37/dataset-card.jpg?t=2022-04-03-00-11-45" >
+<img class="zoom" src="https://img.pokemondb.net/sprites/home/normal/2x/ivysaur.jpg" >
 
 [CIFAR-10 and CIFAR-100](https://www.cs.toronto.edu/~kriz/cifar.html)
 
