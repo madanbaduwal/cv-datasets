@@ -85,6 +85,17 @@ Sample
   
 
 
-[Rice Image Dataset](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset)
+[Rice MSC Dataset](https://www.muratkoklu.com/datasets/)
 - Classes : 5(Arborio, Basmati, Ipsala, Jasmine, Karacadag)
-- 
+- Total dataset : The dataset (1) has 75K images including 15K pieces from each rice variety. 
+- Type of image : Rice 
+
+<img class="zoom" src="https://storage.googleapis.com/kaggle-datasets-images/2048990/3399077/c6d2335b5377a14b46be6b9217b58746/dataset-card.jpg?t=2022-04-03-01-39-26" >
+
+
+[Date Fruit Datasets](https://www.muratkoklu.com/datasets/)
+- Classes : 7 Class
+- Total dataset : 898
+- Type of image : Fruit 
+
+<img class="zoom" src="https://storage.googleapis.com/kaggle-datasets-images/2049845/3400552/7ea4cce54ee9f92170cf7e4dfcb72394/dataset-cover.jpg?t=2022-04-03-09-30-05" >
