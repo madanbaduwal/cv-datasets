@@ -91,13 +91,8 @@ Sample
 <img class="zoom" src="https://production-media.paperswithcode.com/datasets/34f23a2e-9281-475f-bf4a-10cc4c1fd9e8.jpg" >
 
 
-[Durum Wheat Dataset](https://www.muratkoklu.com/datasets/)
-- Classes :  Class
-- Total dataset : 9000
-- Type of image : Wheat 
 
 
-<img class="zoom" src="https://storage.googleapis.com/kaggle-datasets-images/2048888/3398883/b1ba79b7a7a1c3c46edebb1a46104a37/dataset-card.jpg?t=2022-04-03-00-11-45" >
 
 
 # Reference

@@ -13,6 +13,16 @@ order: 1
 - Image type: handwritten digits
 -  It is a subset of a larger set available from [NIST](https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology). 
 
+
+
+[Pokemon Image Dataset](https://pokemondb.net/pokedex/national)
+- Classes : 7  
+- Total dataset : 810
+- Type of image :  Pokemon
+
+
+<img class="zoom" src="https://storage.googleapis.com/kaggle-datasets-images/2048888/3398883/b1ba79b7a7a1c3c46edebb1a46104a37/dataset-card.jpg?t=2022-04-03-00-11-45" >
+
 [CIFAR-10 and CIFAR-100](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 CIFAR-10
