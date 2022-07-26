@@ -46,6 +46,34 @@ order: 3
 | <img src="drawing.jpg" alt="drawing" width="200"/>      | <img src="drawing.jpg" alt="drawing" width="200"/>       |
 
 
+<!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="https://images.squarespace-cdn.com/content/v1/597dc443914e6bed5fd30dcc/1519560141872-9GBRKWZ0646Z06YJ79OA/drone_small_2015DSC_0796.jpg?format=1000w" alt="Nature" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://images.squarespace-cdn.com/content/v1/597dc443914e6bed5fd30dcc/1519560141872-9GBRKWZ0646Z06YJ79OA/drone_small_2015DSC_0796.jpg?format=1000w" alt="Snow" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://images.squarespace-cdn.com/content/v1/597dc443914e6bed5fd30dcc/1519560141872-9GBRKWZ0646Z06YJ79OA/drone_small_2015DSC_0796.jpg?format=1000w" alt="Mountains" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://images.squarespace-cdn.com/content/v1/597dc443914e6bed5fd30dcc/1519560141872-9GBRKWZ0646Z06YJ79OA/drone_small_2015DSC_0796.jpg?format=1000w" alt="Lights" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+
 
 ![Grapevine Leaves Image Dataset](https://storage.googleapis.com/kaggle-datasets-images/2049795/3400473/2401fc5e4f0ac35918b50ce7d655fdab/dataset-card.png?t=2022-04-03-09-17-14)
 
