@@ -27,23 +27,8 @@ Sample
 Sample 
 
 <!-- The grid: four columns -->
-<div class="row">
-  <div class="column" >
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTnCU1j3pIHaU_19CJs2ruT91axZezlONlFjIHpvzQUsfjKKYP00AP-Gg2SYfbFg6rQxk&usqp=CAU" onclick="myFunction(this);">
-  </div>
-</div>
 
-<!-- The expanding image container -->
-<div class="container">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-  <!-- Expanded image -->
-  <img id="expandedImg" style="width:100%">
-
-  <!-- Image text -->
-  <div id="imgtext"></div>
-</div>
+<img class="zoom" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTnCU1j3pIHaU_19CJs2ruT91axZezlONlFjIHpvzQUsfjKKYP00AP-Gg2SYfbFg6rQxk&usqp=CAU">
 
 
 [Intel Image Classification](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
@@ -55,24 +40,7 @@ Sample
 
 
 <!-- The grid: four columns -->
-<div class="row">
-  <div class="column" >
-    <img src="https://miro.medium.com/max/1400/1*GauhLqkNIW89cFEpDKlWqw.png" onclick="myFunction(this);">
-  </div>
-</div>
-
-<!-- The expanding image container -->
-<div class="container">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-  <!-- Expanded image -->
-  <img id="expandedImg" style="width:100%">
-
-  <!-- Image text -->
-  <div id="imgtext"></div>
-</div>
-
+<img class="zoom" src="https://miro.medium.com/max/1400/1*GauhLqkNIW89cFEpDKlWqw.png">
 
 
 
@@ -85,26 +53,9 @@ Sample
 Sample
 
 <!-- The grid: four columns -->
-<div class="row">
-  <div class="column" >
-    <img src="https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/61e9cdbe82f048674fa9a122_sun.png" onclick="myFunction(this);">
-  </div>
-</div>
 
-<!-- The expanding image container -->
-<div class="container">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-  <!-- Expanded image -->
-  <img id="expandedImg" style="width:100%">
-
-  <!-- Image text -->
-  <div id="imgtext"></div>
-</div>
-
-
-
+<img class="zoom" src="https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/61e9cdbe82f048674fa9a122_sun.png" >
+  
 
 [Pistachio Image Dataset](https://www.muratkoklu.com/datasets/)
 - Classes : 2 (Kirmizi , Siirt)
@@ -114,24 +65,8 @@ Sample
 Sample
 
 <!-- The grid: four columns -->
-<div class="row">
-  <div class="column" >
-    <img src="https://static.tildacdn.com/tild3962-3531-4334-a462-353964643932/pistachios.jpg" onclick="myFunction(this);">
-  </div>
-</div>
 
-<!-- The expanding image container -->
-<div class="container">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-  <!-- Expanded image -->
-  <img id="expandedImg" style="width:100%">
-
-  <!-- Image text -->
-  <div id="imgtext"></div>
-</div>
-
+<img src="https://static.tildacdn.com/tild3962-3531-4334-a462-353964643932/pistachios.jpg" >
 
 
 
@@ -145,23 +80,9 @@ Sample
 
 
 <!-- The grid: four columns -->
-<div class="row">
-  <div class="column">
-    <img src="https://www.researchgate.net/publication/348892763/figure/fig2/AS:994416487587843@1614098774908/Example-of-grapevine-leaves-belonging-to-different-classes-a-Esca-disease-b-healthy_Q640.jpg" alt="Nature" onclick="myFunction(this);">
-  </div>
-</div>
 
-<!-- The expanding image container -->
-<div class="container">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-  <!-- Expanded image -->
-  <img id="expandedImg" style="width:100%">
-
-  <!-- Image text -->
-  <div id="imgtext"></div>
-</div>
+<img src="https://www.researchgate.net/publication/348892763/figure/fig2/AS:994416487587843@1614098774908/Example-of-grapevine-leaves-belonging-to-different-classes-a-Esca-disease-b-healthy_Q640.jpg" >
+  
 
 
 [Rice Image Dataset](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset)
