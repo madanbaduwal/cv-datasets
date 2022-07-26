@@ -7,8 +7,6 @@ order: 3
 #### Agriculture
 
 
-  
-
 [Pistachio Image Dataset](https://www.muratkoklu.com/datasets/)
 - Classes : 2 (Kirmizi , Siirt)
 - Total dataset : Total of 2148 images, 1232 of Kirmizi and 916 of Siirt P.
@@ -53,13 +51,53 @@ Sample
 <img class="zoom" src="https://storage.googleapis.com/kaggle-datasets-images/2049845/3400552/7ea4cce54ee9f92170cf7e4dfcb72394/dataset-cover.jpg?t=2022-04-03-09-30-05" >
 
 
+[Pumpkin Seeds Dataset](https://www.muratkoklu.com/datasets/)
+- Classes : 2 Class
+- Total dataset : 2500
+- Type of image : Pumpkin
 
 
 
+<img class="zoom" src="https://storage.googleapis.com/kaggle-datasets-images/2033872/3372851/b0478974098c71f3ec1198679f8279b3/dataset-card.jpg?t=2022-03-28-18-35-34" >
 
 
 
+[Dry Bean Dataset](https://www.muratkoklu.com/datasets/)
+- Classes : 7 Class
+- Total dataset : 13,611
+- Type of image : Bean
 
+
+<img class="zoom" src="https://ars.els-cdn.com/content/image/1-s2.0-S0168169919311573-gr3.jpg" >
+
+
+
+[Raisin Dataset](https://www.muratkoklu.com/datasets/)
+- Classes : 2 Class
+- Total dataset : 900
+- Type of image : Raisin
+
+
+<img class="zoom" src="https://storage.googleapis.com/kaggle-datasets-images/2048906/3398924/7a46d6d73d297ca54a197279179826b2/dataset-card.jpg?t=2022-04-03-00-26-13" >
+
+
+
+[Rice Dataset Cammeo and Osmancik](https://www.muratkoklu.com/datasets/)
+- Classes : 2 Class
+- Total dataset : 3810
+- Type of image : Rice Dataset Cammeo and Osmancik
+
+
+<img class="zoom" src="https://production-media.paperswithcode.com/datasets/34f23a2e-9281-475f-bf4a-10cc4c1fd9e8.jpg" >
+
+
+[Durum Wheat Dataset](https://www.muratkoklu.com/datasets/)
+- Classes :  Class
+- Total dataset : 9000
+- Type of image : Wheat 
+
+
+<img class="zoom" src="https://storage.googleapis.com/kaggle-datasets-images/2048888/3398883/b1ba79b7a7a1c3c46edebb1a46104a37/dataset-card.jpg?t=2022-04-03-00-11-45" >
 
 
 # Reference
