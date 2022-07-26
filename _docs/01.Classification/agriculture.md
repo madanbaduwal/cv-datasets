@@ -39,6 +39,14 @@ order: 3
 
 - Samples: 
 
+
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| <img src="drawing.jpg" alt="drawing" width="200"/>      | <img src="drawing.jpg" alt="drawing" width="200"/>       |
+
+
+
 ![Grapevine Leaves Image Dataset](https://storage.googleapis.com/kaggle-datasets-images/2049795/3400473/2401fc5e4f0ac35918b50ce7d655fdab/dataset-card.png?t=2022-04-03-09-17-14)
 
 [Rice Image Dataset](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset)
