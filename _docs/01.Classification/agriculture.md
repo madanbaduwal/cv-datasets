@@ -37,6 +37,27 @@ order: 3
 - Total images : 
 - Image types : sunrise, cloudy, rainy, and sunshine
 
+
+
+<!-- The grid: four columns -->
+<div class="row">
+  <div class="column" >
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTnCU1j3pIHaU_19CJs2ruT91axZezlONlFjIHpvzQUsfjKKYP00AP-Gg2SYfbFg6rQxk&usqp=CAU" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+
 [Intel Image Classification](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
 - Classes :  6 categories(buildings,forest,glacier,mountain,sea,street)
 - Total datapoints : 25,000 
