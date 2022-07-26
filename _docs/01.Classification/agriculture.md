@@ -66,7 +66,7 @@ Sample
 
 <!-- The grid: four columns -->
 
-<img src="https://static.tildacdn.com/tild3962-3531-4334-a462-353964643932/pistachios.jpg" >
+<img class="zoom" src="https://static.tildacdn.com/tild3962-3531-4334-a462-353964643932/pistachios.jpg" >
 
 
 
@@ -81,7 +81,7 @@ Sample
 
 <!-- The grid: four columns -->
 
-<img src="https://www.researchgate.net/publication/348892763/figure/fig2/AS:994416487587843@1614098774908/Example-of-grapevine-leaves-belonging-to-different-classes-a-Esca-disease-b-healthy_Q640.jpg" >
+<img class="zoom" src="https://www.researchgate.net/publication/348892763/figure/fig2/AS:994416487587843@1614098774908/Example-of-grapevine-leaves-belonging-to-different-classes-a-Esca-disease-b-healthy_Q640.jpg" >
   
 
 
