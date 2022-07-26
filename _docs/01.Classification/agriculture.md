@@ -11,6 +11,27 @@ order: 3
 - Total : 15,000+ images
 - Image type : kitchen,operating_room,restaurant_kitchen...
 
+
+<!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="https://web.mit.edu/torralba/www/allIndoors.jpg" alt="Nature" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+
+
 [Images for Weather Recognition](https://data.mendeley.com/datasets/4drtyfjtfy/1)
 - Classes : 4 separate categories based on sunrise, cloudy, rainy, and sunshine.
 - Total images : 
