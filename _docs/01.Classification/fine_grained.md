@@ -6,11 +6,6 @@ order: 5
 
 ### Fine-grained Visual Recognition
 
-[Fine-grained Classification Challenge](https://sites.google.com/site/fgcomp2013/)
-
-[Caltech-UCSD Birds 200](http://www.vision.caltech.edu/visipedia/CUB-200.html)
-
-
 [Cars Dataset](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)
 - Classes : 196 classes 
 - Total dataset : 16,185 images
@@ -62,3 +57,4 @@ order: 5
 
 # Reference
 * [Paperswithcode](https://paperswithcode.com/task/fine-grained-image-classification)
+* [FG Comp(Fine-grained Classification Challenge)](https://sites.google.com/site/fgcomp2013/)
