@@ -13,6 +13,10 @@ order: 1
 ,Kicking (20 videos),Lifting (6 videos))
 - This dataset consists of a set of actions collected from various sports which are typically featured on broadcast television channels such as the BBC and ESPN. The video sequences were obtained from a wide range of stock footage websites including BBC Motion gallery, and GettyImages.
 
+
+<img class="zoom" src="https://www.researchgate.net/profile/Jose-Chaquet/publication/236156020/figure/fig7/AS:576657776152582@1514497335135/Screenshots-of-UCF-Sports-Action-Dataset.png" >
+
+
 [UCF Aerial Action Dataset](http://server.cs.ucf.edu/~vision/aerial/index.html)
 - This dataset features video sequences that were obtained using a R/C-controlled blimp equipped with an HD camera mounted on a gimbal.The collection represents a diverse pool of actions featured at different heights and aerial viewpoints. Multiple instances of each action were recorded at different flying altitudes which ranged from 400-450 feet and were performed by different actors.
 

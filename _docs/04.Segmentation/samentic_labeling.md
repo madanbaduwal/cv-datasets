@@ -13,7 +13,7 @@ order: 5
 ,SUV / pickup truck,Truck / bus,Train,Misc...)
 - Total label images : 700 images was specified manually,
 
-<img class="zoom" src="http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/pr/DBOverview1_1_huff_0000964.jpg" >
+<img class="zoom" src="https://www.researchgate.net/profile/Yafei-Song-4/publication/290109992/figure/fig3/AS:650369025716225@1532071467046/Our-results-on-CamVid-dataset-Left-column-shows-the-input-image-and-middle-column-shows.png" >
 
 
 [Stanford background dataset](http://dags.stanford.edu/projects/scenedataset.html)
