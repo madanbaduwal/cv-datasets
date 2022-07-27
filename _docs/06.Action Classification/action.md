@@ -7,7 +7,10 @@ order: 1
 
 ### Action (Action Classification in Video)
 
-[UCF Sports Action Dataset](http://server.cs.ucf.edu/~vision/projects/action_mach/ucf_sports_actions.zip)
+[UCF Sports Action Dataset](https://www.crcv.ucf.edu/data/UCF_Sports_Action.php)
+
+- Classes : 10 actions (Diving (14 videos),Golf Swing (18 videos)
+,Kicking (20 videos),Lifting (6 videos))
 - This dataset consists of a set of actions collected from various sports which are typically featured on broadcast television channels such as the BBC and ESPN. The video sequences were obtained from a wide range of stock footage websites including BBC Motion gallery, and GettyImages.
 
 [UCF Aerial Action Dataset](http://server.cs.ucf.edu/~vision/aerial/index.html)

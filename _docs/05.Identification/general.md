@@ -4,14 +4,24 @@ category: 5.Identification
 order: 1
 ---
 
+[PUT face](https://biometrics.cie.put.poznan.pl/)
+
+- Classes : 100 people
+- Total images : 9971 images of 
+
+
+<img class="zoom" src="https://www.researchgate.net/profile/Adam-Schmidt-6/publication/232085001/figure/fig1/AS:669984711790593@1536748211309/Example-of-manually-marked-face-and-eyes-ROI_Q320.jpg" >
+
+
+
 [Face and Gesture Recognition Working Group FGnet](http://www-prima.inrialpes.fr/FGnet/)
 - Face and Gesture Recognition Working Group FGnet
+
+
 
 [Feret](http://www.itl.nist.gov/iad/humanid/feret/feret_master.html)
 - Face and Gesture Recognition Working Group FGnet
 
-[PUT face](https://biometrics.cie.put.poznan.pl/)
-- 9971 images of 100 people
 
 [Labeled Faces in the Wild](http://vis-www.cs.umass.edu/lfw/)
 - A database of face photographs designed for studying the problem of unconstrained 

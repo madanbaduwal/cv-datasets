@@ -15,6 +15,8 @@ order: 1
 -  It is a subset of a larger set available from [NIST](https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology). 
 
 
+<img class="zoom" src="https://upload.wikimedia.org/wikipedia/commons/2/27/MnistExamples.png" >
+
 
 [Pokemon Image Dataset](https://pokemondb.net/pokedex/national)
 - Classes : 7  

@@ -7,6 +7,14 @@ order: 1
 
 ### Segmentation / video segmentaion 
 
+[CMU-Cornell iCoseg Dataset](http://chenlab.ece.cornell.edu/projects/touch-coseg/)
+
+- Classes : 38 groups of images
+- Total images : 643 images (Approximately 17 images per group)
+
+<img class="zoom" src="http://chenlab.ece.cornell.edu/projects/touch-coseg/images/3.png" >
+
+
 [DAVIS: Densely Annotated VIdeo Segmentation](https://davischallenge.org/)
 
 [SegTrack v2](https://web.engr.oregonstate.edu/~lif/SegTrack2/dataset.html)
@@ -27,8 +35,6 @@ order: 1
 [Crowd Segmentation Dataset](http://server.cs.ucf.edu/~vision/projects/sali/CrowdSegmentation/UCF_CrowdsDataset.zip)
 - This dataset contains videos of crowds and other high density moving objects. The videos are collected mainly from the BBC Motion Gallery and Getty Images website. The videos are shared only for the research purposes. Please consult the terms and conditions of use of these videos from the respective websites.
 
-[CMU-Cornell iCoseg Dataset](http://chenlab.ece.cornell.edu/projects/touch-coseg/)
-Contains hand-labelled pixel annotations for 38 groups of images, each group containing a common foreground. Approximately 17 images per group, 643 images total.
 
 [Segmentation evaluation database](https://www.wisdom.weizmann.ac.il/~vision/Seg_Evaluation_DB/index.html)
 200 gray level images along with ground truth segmentations

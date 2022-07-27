@@ -9,7 +9,8 @@ order: 5
 
 [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/)
 
-- Classes : 32 semantic classes
+- Classes : 32 semantic classes (Animal,Pedestrian,Child,Rolling cart/luggage/pram,Bicyclist,Motorcycle/scooter,Car (sedan/wagon)
+,SUV / pickup truck,Truck / bus,Train,Misc...)
 - Total label images : 700 images was specified manually,
 
 <img class="zoom" src="http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/pr/DBOverview1_1_huff_0000964.jpg" >
