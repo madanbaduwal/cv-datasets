@@ -11,8 +11,7 @@ body {
     /* margin: 200px; */
   }
   .Grid-row {
-    display: flex;
-    flex-wrap: wrap;
+
     justify-content: space-between;
     margin-bottom: 2.5rem;
   }
