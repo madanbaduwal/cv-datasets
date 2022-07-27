@@ -7,6 +7,15 @@ order: 1
 ### Pose estimation / Human pose / Expression 
 * Pose Estimation is a computer vision technique to predict and track the location of a person or object.
 * This is typically done by identifying, locating, and tracking a number of keypoints on a given object or person. 
+* The combination of position and orientation is referred to as the pose of an object, even though this concept is sometimes used only to describe the orientation.
+
+
+[Yoga Poses Dataset](https://www.kaggle.com/datasets/niharika41298/yoga-poses-dataset)
+
+- Classes : 5 classes of yoga poses
+- Total images : above 100 images in each class(pose coordinates(key points) are in csv file)
+
+<img class="zoom" src="https://editor.analyticsvidhya.com/uploads/53099pose.png" >
 
 [Leeds Sport Poses](https://docs.activeloop.ai/datasets/lsp-dataset#:~:text=What%20is%20LSP%20Dataset%3F,%22%2C%20and%20%22athletics%22.)
 - The LSP dataset contains 10,000 images gathered from Flickr searches for the tags "parkour", "gymnastics", and "athletics".

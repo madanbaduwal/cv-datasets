@@ -6,9 +6,18 @@ order: 5
 
 ### Semantic labeling
 
-[Stanford background dataset](http://dags.stanford.edu/projects/scenedataset.html)
 
 [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/)
+
+- Classes : 32 semantic classes
+- Total label images : 700 images was specified manually,
+
+<img class="zoom" src="http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/pr/DBOverview1_1_huff_0000964.jpg" >
+
+
+[Stanford background dataset](http://dags.stanford.edu/projects/scenedataset.html)
+
+
 
 [Barcelona Dataset](http://www.cs.unc.edu/~jtighe/Papers/ECCV10/)
 
