@@ -5,13 +5,13 @@ body {
     
   }
   .Grid {
-    width: 100%;
     padding: 0;
     position: relative;
     /* margin: 200px; */
   }
   .Grid-row {
-
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 2.5rem;
   }
