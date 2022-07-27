@@ -5,15 +5,18 @@ body {
     
   }
   .Grid {
+    width: 100%;
     padding: 0;
     position: relative;
     /* margin: 200px; */
   }
   .Grid-row {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 2.5rem;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
   }
   .Card {
     position: relative;
