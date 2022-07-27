@@ -9,11 +9,9 @@ order: 1
 [COCO](https://cocodataset.org/#home)
 
 - Classes : 80 object categories,91 stuff categories,5 captions per image
-- Labeled datasets : >200K labeled
-- Total object instance : 1.5 million object instances 
-
+- Labeled datasets : >200K labeled (multiple instances are labeled in single image)
+- Total object instance : 1.5 million object instances (multiple instances are in a single image)
 - Total images : 330K images
-
 - 250,000 people with keypoints
 
 <img class="zoom" src="https://cocodataset.org/images/coco-examples.jpg" >
@@ -21,15 +19,32 @@ order: 1
 
 [KITTI](http://www.cvlibs.net/datasets/kitti/eval_object.php)
 
-- The object detection and object orientation estimation benchmark consists of 7481 training images and 7518 test images, comprising a total of 80.256 labeled objects. 
+- Classes : 
+- Label dataset : 80,256 labeled objects
+- Total images : 7481 training images and 7518 test images
+
+<img class="zoom" src="http://www.cvlibs.net/datasets/kitti/images/header_object.jpg" >
 
 
 
 [ImageNet](https://image-net.org/)
-- 14,197,122 images and 1,000 categories
+
+- Classes : 1000
+- Label dataset : - Number of images with bounding box annotations: 1,034,908
+- Total number of non-empty WordNet synsets: 21841
+- Total number of images: 14197122
+- Number of synsets with SIFT features: 1000
+- Number of images with SIFT features: 1.2 million
+
+
+<img class="zoom" src="https://image-net.org/static_files/figures/ILSVRC2012_val_00042692.png" >
+
+
 
 [BDD100K](https://www.bdd100k.com/)
 - largest open driving video dataset as part of the CVPR
+
+
 
 [DOTA](https://www.v7labs.com/open-datasets/dota)
 - Dataset for Object deTection in Aerial Images , 11268 Items ,18 Classes , 
