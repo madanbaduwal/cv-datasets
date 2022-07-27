@@ -1,6 +1,6 @@
 ---
 title: General 
-category: 1.Classification
+category: 1.Recognition/Classification
 order: 1
 ---
 
