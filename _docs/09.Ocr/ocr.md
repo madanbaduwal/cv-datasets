@@ -7,9 +7,11 @@ order: 1
 ## Optical character recognition (OCR)
 
 [Text OCR](https://textvqa.org/textocr/)
+- Classes : 903,069 annotated scene-text words (32 words per image on average
+)
 - 28,134 natural images from TextVQA
-- 903,069 annotated scene-text words
-- 32 words per image on average
+
+<img class="zoom" src="https://production-media.paperswithcode.com/datasets/Screenshot_2021-05-13_at_10.17.05.jpg" >
 
 [NIST Database](https://www.nist.gov/services-resources/software/public-domain-ocr)
 - The US National Institute of Science publishes handwriting from 3600 writers, including more than 800,000 character images.

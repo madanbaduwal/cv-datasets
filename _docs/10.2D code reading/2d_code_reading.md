@@ -11,9 +11,12 @@ order: 1
 
 [QR-DN1.0 dataset](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8627996/)
 
-- The QR-DN1.0 dataset includes 5 categories of QR codes that will cover low to high density levels. Each group has 15 QR codes: 5 images for testing and 10 images for training.
+- Classes : 5 categories of QR codes that will cover low to high density levels. Each group has 15 QR codes: 5 images for testing and 10 images for training.
 
 
+- Total images : testing, with 750 images, and training, with 2250 images.
+
+<img class="zoom" src="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=8627996_gr1.jpg" >
 
 
 
