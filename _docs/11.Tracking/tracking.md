@@ -6,7 +6,8 @@ order: 1
 
 ## video tracking/ object tracking
 
-[BIWI Walking Pedestrians dataset](https://vision.ee.ethz.ch/datasets/)
+[BIWI Walking Pedestrians dataset](https://icu.ee.ethz.ch/research/datsets.html)
+
 - Walking pedestrians in busy scenarios from a bird eye view
 
 
