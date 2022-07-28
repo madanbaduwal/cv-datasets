@@ -9,7 +9,7 @@ order: 1
 [BIWI Walking Pedestrians dataset](https://icu.ee.ethz.ch/research/datsets.html)
 
 - Walking pedestrians in busy scenarios from a bird eye view
-
+- 4006 images which are evenly distributed between fog, nighttime, rain, and snow.
 
 
 ["Central" Pedestrian Crossing Sequences](https://vision.ee.ethz.ch/datasets/)
