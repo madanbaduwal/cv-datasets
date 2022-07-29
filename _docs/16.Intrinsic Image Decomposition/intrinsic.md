@@ -1,10 +1,13 @@
 ---
 title: Intrinsic  
-category: 16.Intrinsic
+category: 16.Intrinsic Image Decomposition
 order: 1
 ---
 
-## Intrinsic Images
+## Intrinsic Image Decomposition
+
+* Intrinsic image decomposition, which is an essential task in computer vision, aims to infer the reflectance and shading of the scene.
+
 
 [Ground-truth dataset and baseline evaluations for intrinsic image algorithms](http://www.mit.edu/~kimo/publications/intrinsic/)
 
