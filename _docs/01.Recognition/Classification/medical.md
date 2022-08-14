@@ -6,6 +6,13 @@ order: 2
 
 #### Medical Images
 
+[FGADR](https://csyizhou.github.io/FGADR/)
+* A large-scale Fine-Grained Annotated Diabetic Retinopathy (FGADR) dataset consists of two subsets: Seg-set (1842 images) and Grade-set (1000 images).
+
+<img class="zoom" src="https://raw.githubusercontent.com/csyizhou/FGADR/gh-pages/img/FGADR_Annotation.png" >
+
+
+
 [TensorFlow patch_camelyon Medical Images ](https://www.tensorflow.org/datasets/catalog/patch_camelyon)
 - Classes : 2(binary)
 - Containing over 327,000 color images
