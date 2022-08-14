@@ -8,6 +8,8 @@ order: 1
 
 * Intrinsic image decomposition, which is an essential task in computer vision, aims to infer the reflectance and shading of the scene.
 
+![Intrinsic decompopsition sample](https://media.springernature.com/full/springer-static/image/prt%3A978-0-387-31439-6%2F9/MediaObjects/978-0-387-31439-6_9_Part_Fig1-245_HTML.jpg?as=webp)
+
 
 [Ground-truth dataset and baseline evaluations for intrinsic image algorithms](http://www.mit.edu/~kimo/publications/intrinsic/)
 
