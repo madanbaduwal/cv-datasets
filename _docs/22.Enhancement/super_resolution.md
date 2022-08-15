@@ -1,6 +1,6 @@
 ---
 title: Super Resolution
-category: Enhancement
+category: 22.Enhancement
 order: 1
 ---
 

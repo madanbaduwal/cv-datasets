@@ -1,6 +1,6 @@
 ---
 title: Deblurring
-category: Enhancement
+category: 22.Enhancement
 order: 1
 ---
 
