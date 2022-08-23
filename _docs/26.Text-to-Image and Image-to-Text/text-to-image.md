@@ -1,6 +1,6 @@
 ---
 title: Text to Image
-category: 25.Text-to-Image and Image-to-Text
+category: 26.Text-to-Image and Image-to-Text
 order: 1
 ---
 
