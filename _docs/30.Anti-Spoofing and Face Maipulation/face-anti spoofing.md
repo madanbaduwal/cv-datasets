@@ -1,6 +1,6 @@
 ---
 title: Face Anti Spoofing
-category: 30.Anti-Spoofing
+category: 30.Anti-Spoofing and Face Maipulation
 order: 1
 ---
 
