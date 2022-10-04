@@ -38,3 +38,11 @@ order: 2
 [PASCAL 3D+](https://cvgl.stanford.edu/projects/pascal3d.html)
 
 [NYU Car Dataset](http://nyc3d.cs.cornell.edu/)
+
+
+[nuScenes](https://www.nuscenes.org/)
+
+- 1.4M 3D bounding boxes manually annotated for 23 object classes
+
+
+<img class="zoom" src="https://production-media.paperswithcode.com/datasets/Screen_Shot_2021-01-28_at_5.57.43_PM.png" >
