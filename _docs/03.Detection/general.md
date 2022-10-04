@@ -264,6 +264,11 @@ order: 1
 
 [ChangeDetection.net](https://ieeexplore.ieee.org/document/6238919)
 
+[MVTec AD](https://www.mvtec.com/company/research/datasets/mvtec-ad)
+- It contains over 5000 high-resolution images divided into fifteen different object and texture categories. 
+
+<img class="zoom" src="https://www.mvtec.com/fileadmin/Redaktion/mvtec.com/company/research/datasets/dataset_overview_large.png" >
+
 
 
 ### References
