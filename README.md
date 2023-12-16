@@ -2,7 +2,7 @@
 
 Search Computer vision data
 
-For fast search follow this website [http://www.computervisiondatasets.ml/](http://www.computervisiondatasets.ml/)
+For fast search follow this website [http://www.computervisiondatasets.ml/](https://madanbaduwal.github.io/cv-datasets/)
 
 
 <img src="/images/demo.gif" alt="Demo gif" />
